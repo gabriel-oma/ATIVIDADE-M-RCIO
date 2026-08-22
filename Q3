@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double salario = SC.nextDouble();
+        double salario = sc.nextDouble();
         double contribuicao = 0.0;
 
         if (salario <= 1320.00) {
@@ -23,6 +23,6 @@ public class Main {
         System.out.printf("Contribuicao: %.2f\n", contribuicao);
         System.out.printf("Salario Liquido: %.2f\n", salarioLiquido);
 
-        sc.close();
+
     }
 }
