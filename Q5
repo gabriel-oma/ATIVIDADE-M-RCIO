@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Q5 {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int a = SC.nextInt();
-        int b = SC.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
         int inicio;
         int fim;
@@ -32,6 +32,5 @@ public class Q5 {
             }
         }
 
-        sc.close();
     }
 }
