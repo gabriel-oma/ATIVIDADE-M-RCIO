@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Q5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = SC.nextInt();
+        int b = SC.nextInt();
+
+        int inicio;
+        int fim;
+
+        if (a < b) {
+            inicio = a;
+            fim = b;
+        } else {
+            inicio = b;
+            fim = a;
+        }
+
+        for (int i = inicio; i <= fim; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+        System.out.println();
+
+        for (int i = inicio; i <= fim; i++) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+        sc.close();
+    }
+}
